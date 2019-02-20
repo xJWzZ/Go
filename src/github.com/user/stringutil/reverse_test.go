@@ -13,6 +13,7 @@ func TestReverse(t *testing.T) {
 		got := Reverse(c.in)
 		if got != c.want {
 			t.Errorf("Reverse(%q) == %q, want %q", c.in, got, c.want)
+			/*adding a comment*/
 		}
 	}
 }
