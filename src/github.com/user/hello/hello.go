@@ -16,7 +16,6 @@ func main() {
 	fmt.Println(y)
 	fmt.Printf("y is of type %T\n", y)
 	fmt.Println(y*2)
-	fmt.Println(y*3)
 
 }
 
